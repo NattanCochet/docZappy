@@ -27,3 +27,7 @@ theme:
 
 plugins:
   - search
+
+nav:
+  - "IA": ia.md
+  - "Serveur": server.md
