@@ -29,5 +29,6 @@ plugins:
   - search
 
 nav:
+  - "Home": index.md
   - "IA": ia.md
   - "Serveur": server.md
