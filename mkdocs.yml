@@ -1,5 +1,8 @@
 site_name: Doc Zappy
 
+extra_css:
+  - ex.css
+
 theme:
   name: material
   features:

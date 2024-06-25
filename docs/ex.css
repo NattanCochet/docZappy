@@ -1,0 +1,42 @@
+/* better tables */
+.md-typeset table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+/* better tables*/
+th, td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #000000;
+    border-right: 1px solid #000000;
+    border-left: 1px solid #000000;
+    border-top: 1px solid #000000;
+}
+
+/* better column name cell */
+th {
+    background-color: #f2f2f2;
+	font-weight: bold;
+}
+
+thead th:empty {
+    border: thin solid red !important;
+    display: none;
+}
+
+/* color when hovering over table cells (not column names) */
+tr:hover, td:hover {
+    background-color: #f7ebeb;
+}
+
+/* fixes an issue where the top border of a table cell would not show as black */
+.md-typeset table:not([class]) td {
+    border-top: 1px solid #000000;
+	padding: .9375em 1.25em;
+    vertical-align: top;
+}
+
+.md-footer-meta {
+    display: none;
+}
